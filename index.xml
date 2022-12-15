@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?> 
+
+<teiCorpus xml:id="index">
+
+
+    <!-- HEADER DEL CORPUS -->
+
+    <teiHeader xml:lang="it">
+        <fileDesc>
+
+            <titleStmt>
+                <title>Corrispondenze, Progetto di Codifica di Testi</title>
+                <respStmt>
+                    <resp>Trascrizione a cura di</resp>
+                    <name type="person" xml:id="NB">Noemi Boni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Studente di Codifica di Testi, Corso di Laurea di Informatica Umanistica, Università di Pisa
+                    <date when="2022">2022</date>
+                </edition>
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <persName xml:id="TC">Tommaso Castagneto</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <persName ref="#TC">Tommaso Castagneto</persName>
+                    <persName ref="#NB">Noemi Boni</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <persName xml:id="GP">Giacomo Paolicchi</persName>
+                    <persName xml:id="ES">Enrica Salvatori</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <persName xml:id="ER">E. Ratti</persName>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <notesStmt>
+                <note>
+                    Sono presenti diverse piccole sbavature su tutta la superficie e una linea verticale a destra della cartolina.
+                    Nessuna di queste impedisce la corretta lettura.
+                </note>
+            </notesStmt>
+
+            <sourceDesc>
+                <bibl type="postcard">
+                    <title type="custom">Progetto Cartoline</title>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                    </msIdentifier>
+                </msDesc>
+
+                <listPerson>
+                    <person>
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>Male</sex>
+                    </person>
+                    <person>
+                        <persName xml:id="OT">
+                            <forename>Olivia</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>Female</sex>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+
+
+    <!-- HEADER DELLA PRIMA CARTOLINA (177) -->
+
+    <TEI xml:id="cart177">
+        <teiHeader xml:lang="it">
+
+            <fileDesc>
+
+                <titleStmt>
+                    <title>Donna in blu - Edizione digitale diplomatico-interpretativa</title>
+                    <respStmt>
+                        <resp>Trascrizione a cura di</resp>
+                        <name type="person" ref="#NB">Noemi Boni</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune della Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, Università di Pisa
+                        <date when="2018">2018</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <persName ref="#TC">Tommaso Castagneto</persName>
+                        <persName ref="#NB">Noemi Boni</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <persName ref="#GP">Giacomo Paolicchi</persName>
+                        <persName ref="#ES">Enrica Salvatori</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <persName ref="#ER">E. Ratti</persName>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+
+                <notesStmt>
+                    <note>
+                        E' presente un segno nero verticale sulla sinistra del retro della cartolina, simile a un frego d'inchiostro. 
+                        Ci sono inoltre qua e là diverse sbavature. 
+                        Nessuno di questi impedisce la lettura
+                    </note>
+                </notesStmt>
+
+                <sourceDesc>
+                    <bibl type="postcard">
+                        <title type="custom" resp="#ES">[Donna in blu]</title>
+                        <author><persName xml:id="GC">Giovanni Coliola</persName></author>
+                        <date>1917/11/10</date>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <idno type="postcard_id">7694_177_001/002</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang mainLang="ita">Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                                <height>9</height>
+                                                <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                
+                    <listPerson>
+                        <person>
+                            <persName ref="#GC">
+                                <forename>Giovanni</forename>
+                                <surname>Coliola</surname>
+                            </persName>
+                            <sex>Male</sex>
+                        </person>
+                        <person>
+                            <persName ref="#OT">
+                                <forename>Olivia</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>Female</sex>
+                        </person>
+                    </listPerson>
+                </sourceDesc>
+
+            </fileDesc>
+
+            <encodingDesc>
+                <p>Codifica digitale di entrambi i lati della cartolina</p>
+            </encodingDesc>
+
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC">
+                        <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <placeName ref="#MO">Modena</placeName>
+                        <date type="writing" when="19171110">10/11/1917</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT">
+                            <forename>Olivia</forename> 
+                            <surname>Turtura</surname>
+                        </persName>
+                    </correspAction>
+                </correspDesc>
+                
+                <textClass>
+                    <keywords>
+                        <term>Cartolina </term>
+                        <term>Cartolina Artistica </term>
+                        <term>Coppia di innamorati</term>
+                    </keywords>
+                </textClass>
+                
+                <langUsage>
+                    <language ident="it-IT" usage="98">Italiano del Novecento</language>
+                </langUsage>
+            </profileDesc>
+
+        </teiHeader>
+
+        <facsimile>
+            <surface xml:id="front_img177">
+                <graphic url='immagini_cartoline/Fronte 177.jpg' width='1024px' height='1646px' />
+                <!-- immagine sul fronte della cartolina -->
+                <zone type="handWriting" ulx="5" uly="4" lrx="859" lry="1075" xml:id="fimg_177" />
+                <!-- Ti prego di salutarmi tanto  -->
+                <zone type="handWriting" ulx="58" uly="1103" lrx="1017" lry="1249" xml:id="f1_177" /> 
+                <!-- tanto affettuosamente  --> 
+                <zone type="handWriting" ulx="41" uly="1254" lrx="968" lry="1361" xml:id="f2_177" />
+                <!-- tutti. -->
+                <zone type="handWriting" ulx="26" uly="1356" lrx="232" lry="1430" xml:id="f3_177" />
+                <!-- tuo Giovannino -->
+                <zone type="handWriting" ulx="58" uly="1435" lrx="965" lry="1553" xml:id="f4_177" />
+            </surface>
+            <surface xml:id="back_img177">
+                <graphic url='immagini_cartoline/Retro 177.jpg' width='1052px' height='1658px' />
+                <!-- Modena, li 10/11-17. -->
+                <zone type="handWriting" ulx="250" uly="4" lrx="813" lry="100" xml:id="bdate_177" />
+                <!-- 177 -->
+                <zone type="handWriting" ulx="885" uly="6" lrx="1030" lry="112" xml:id="bnum_177" />
+                <!-- Olivia mia, -->
+                <zone type="handWriting" ulx="44" uly="40" lrx="457" lry="133" xml:id="b1_177" />
+                <!-- Non stare in ansia per me, te ne prego. -->
+                <zone type="handWriting" ulx="29" uly="110" lrx="1038" lry="216" xml:id="b2_177" />
+                <!-- Sai bene che io ho con fervore abbrac- -->
+                <zone type="handWriting" ulx="16" uly="177" lrx="1028" lry="306" xml:id="b3_177" />
+                <!-- ciata la tua sola ed unica causa e nulla -->
+                <zone type="handWriting" ulx="19" uly="274" lrx="1032" lry="370" xml:id="b4_177" />
+                <!-- più mi scosterà da tale proposito. -->
+                <zone type="handWriting" ulx="18" uly="340" lrx="919" lry="438" xml:id="b5_177" />
+                <!-- I ?fumi entusiastici?, e qualunque pensiero -->
+                <zone type="handWriting" ulx="22" uly="422" lrx="1049" lry="524" xml:id="b6_177" />
+                <!--  che ?possa? comunque turbare la tua _ -->
+                <zone type="handWriting" ulx="20" uly="513" lrx="1036" lry="609" xml:id="b7_177" />
+                <!-- inquietare la tua anima buona, ?saranno? -->
+                <zone type="handWriting" ulx="26" uly="611" lrx="1049" lry="694" xml:id="b8_177" />
+                <!-- da me bandita al _ ricordo -->
+                <zone type="handWriting" ulx="35" uly="686" lrx="1033" lry="758" xml:id="b9_177" />
+                <!-- del nostro purissimo amore, per l’eterna -->
+                <zone type="handWriting" ulx="27" uly="764" lrx="1042" lry="841" xml:id="b10_177" />
+                <!-- fede del nostro affetto e con la sola -->
+                <zone type="handWriting" ulx="23" uly="826" lrx="1024" lry="924" xml:id="b11_177" />
+                <!-- visione d’un avvenire felice, adorno -->
+                <zone type="handWriting" ulx="48" uly="908" lrx="1044" lry="985" xml:id="b12_177" />
+                <!-- delle sfumature più sante e più perfette -->
+                <zone type="handWriting" ulx="29" uly="994" lrx="1038" lry="1058" xml:id="b13_177" />
+                <!-- _ ?spontanee e rigogliosi dai? -->
+                <zone type="handWriting" ulx="32" uly="1051" lrx="1013" lry="1119" xml:id="b14_177" />
+                <!-- nostri amori già tante volte provati -->
+                <zone type="handWriting" ulx="30" uly="1123" lrx="997" lry="1219" xml:id="b15_177" />
+                <!-- dal dolore e dalle disavventure. -->
+                <zone type="handWriting" ulx="30" uly="1188" lrx="857" lry="1270" xml:id="b16_177" />
+                <!-- Olivia cara, ti penso sempre con crescente -->
+                <zone type="handWriting" ulx="40" uly="1257" lrx="1030" lry="1329" xml:id="b17_177" />
+                <!-- affetto e con infinita passione. -->
+                <zone type="handWriting" ulx="35" uly="1312" lrx="897" lry="1413" xml:id="b18_177" />
+                <!-- Vorrei abbandonarmi sulle tue amorose -->
+                <zone type="handWriting" ulx="80" uly="1404" lrx="1049" lry="1481" xml:id="b19_177" />
+                <!-- braccia, sul tuo cuore palpitante e dirti -->
+                <zone type="handWriting" ulx="51" uly="1468" lrx="1045" lry="1540" xml:id="b20_177" />
+                <!-- ancora t’amo in eterno. -->
+                <zone type="handWriting" ulx="53" uly="1532" lrx="742" lry="1595" xml:id="b21_177" />
+                <!-- Un bacio tuo Giovanni -->
+                <zone type="handWriting" ulx="46" uly="1588" lrx="1012" lry="1646" xml:id="b22_177" />
+            </surface>
+        </facsimile>
+
+
+        <!--TESTO PRIMA CARTOLINA-->
+
+        <text xml:lang="it" type="cartolina">
+            <body>
+                <div type="fronte" xml:id="front_postcard177" facs="#front_img177">
+
+                    <figure xml:id="fimg_177t" facs="#fimg_177">
+                        <graphic url="immagini_cartoline/Fronte 177.jpg" />
+                        <figDesc>
+                            Una donna dai capelli raccolti in un cappello azzurro su uno sfondo blu. 
+                            La figura è ritratta a mazzo busto con tecniche simili all'acquerello.
+                            In basso è presente lo spazio per i saluti del mittente.
+                        </figDesc>
+                        <head>Donna in blu</head>
+                    </figure>
+
+                    <div type="message">
+                        <p xml:id="testo1_f">
+                            <s>
+                                <lb xml:id="f1_177t" facs="#f1_177" />
+                                Ti prego di salutarmi tanto 
+                                <lb xml:id="f2_177t" facs="#f2_177" />
+                                tanto affettuosamente 
+                                <lb xml:id="f3_177t" facs="#f3_177" />
+                                tutti.
+                            </s>
+                        </p>
+
+                        <closer>
+                            <lb xml:id="f4_177t" facs="#f4_177" />
+                            tuo <signed><unclear reason="illegible">Giovannino</unclear></signed>
+                        </closer>
+                    </div>
+                    
+                </div>
+
+                <div type="retro" xml:id="back_postcard177"  facs="#back_img177">
+                    <div type="message">
+
+                        <dateline xml:id="testo1_date">
+                            <lb xml:id="bdate_177t" facs="#bdate_177" />
+                            <placeName ref="#Mo">Modena<unclear reason="illegible">, li</unclear></placeName>
+                            <date when="19171110">10/11-17.</date>
+                        </dateline>
+
+                        <p xml:id="testo1_num">
+                            <num type="cardinal" xml:id="bnum_177t" facs="#bnum_177">177</num>
+                        </p>
+
+                        <p xml:id="testo1_1">
+                            <s>
+                                <lb xml:id="b1_177t" facs="#b1_177" />
+                                <persName ref="#OT">Olivia</persName> mia,
+                                <lb xml:id="b2_177t" facs="#b2_177" />
+                                Non stare in ansia per me, te ne prego.
+                            </s>
+                            <s>
+                                <lb xml:id="b3_177t" facs="#b3_177" />
+                                Sai bene che io ho con fervore abbrac<pc force="inter">-</pc>
+                                <lb xml:id="b4_177t" facs="#b4_177" />
+                                ciata la tua sola ed unica causa e nulla
+                                <lb xml:id="b5_177t" facs="#b5_177" />
+                                più mi scosterà da tale proposito.
+                            </s>
+                        </p>
+                        <p xml:id="testo1_2">
+                            <s>
+                                <lb xml:id="b6_177t" facs="#b6_177" />
+                                I <unclear reason="illegible">fumi entusiastici</unclear>, e qualunque pensiero
+                                <lb xml:id="b7_177t" facs="#b7_177" />
+                                che <unclear reason="illegible">possa</unclear> comunque turbare la tua <gap atLeast="4" atMost="6" unit="chars" reason="illegible"/>
+                                <lb xml:id="b8_177t" facs="#b8_177" />
+                                inquietare la tua anima buona, <unclear reason="illegible">saranno</unclear>
+                                <lb xml:id="b9_177t" facs="#b9_177" />
+                                da me bandita al <gap atLeast="6" atMost="10" unit="chars" reason="illegible"/> ricordo
+                                <lb xml:id="b10_177t" facs="#b10" />
+                                del nostro <unclear reason="illegible">purissimo</unclear> amore, per l'eterna
+                                <lb xml:id="b11_177t" facs="#b11_177" />
+                                fede del nostro affetto e con la <unclear reason="illegible">sola</unclear>
+                                <lb xml:id="b12_177t" facs="#b12_177" />
+                                visione d'un avvenire felice, adorno
+                                <lb xml:id="b13_177t" facs="#b13_177" />
+                                delle sfumature più sante e più perfette
+                                <lb xml:id="b14_177t" facs="#b14_177" />
+                                <gap atLeast="8" atMost="12" unit="chars" reason="illegible"/> <unclear reason="illegible">spontanee e rigogliosi dai</unclear>
+                                <lb xml:id="b15_177t" facs="#b15_177" />
+                                nostri amori già tante volte provati
+                                <lb xml:id="b16_177t" facs="#b16_177" />
+                                dal dolore e dalle disavventure.
+                            </s>
+                        </p>
+                        <p xml:id="testo1_3">
+                            <s>
+                                <lb xml:id="b17_177t" facs="#b17_177" />
+                                <persName ref="#OT">Olivia</persName> cara, ti penso sempre con crescente
+                                <lb xml:id="b18_177t" facs="#b18_177" />
+                                affetto e con infinita passione.
+                            </s>
+                            <s>
+                                <lb xml:id="b19_177t" facs="#b19_177" />
+                                Vorrei abbandonarmi sulle tue amorose
+                                <lb xml:id="b20_177t" facs="#b20_177" />
+                                braccia, sul tuo cuore palpitante e dirti
+                                <lb xml:id="b21_177t" facs="#b21_177" />
+                                ancora t'amo in eterno.
+                            </s>
+                        </p>
+                        <closer>
+                            <lb xml:id="b22_177t" facs="#b22_177" />
+                            Un bacio tuo <signed><persName ref="#GC">Giovanni</persName></signed>
+                        </closer>
+                        
+                    </div>
+                </div>
+
+            </body>
+        </text>
+
+    </TEI>
+
+
+    <!-- HEADER DELLA SECONDA CARTOLINA (219)-->
+
+    <TEI xml:id="cart219">
+        <teiHeader xml:lang="it">
+            <fileDesc>
+
+                <titleStmt>
+                    <title>Donna con cane - Edizione digitale diplomatico-interpretativa</title>
+                    <respStmt>
+                        <resp>Trascrizione a cura di</resp>
+                        <name type="person" ref="#NB">Noemi Boni</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune della Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, Università di Pisa
+                        <date when="2018">2018</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <persName ref="#TC">Tommaso Castagneto</persName>
+                        <persName ref="#NB">Noemi Boni</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <persName ref="#GP">Giacomo Paolicchi</persName>
+                        <persName ref="#ES">Enrica Salvatori</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <persName ref="#ER">E. Ratti</persName>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+
+                <notesStmt>
+                    <note>
+                        Sono presenti diverse piccole sbavature su tutta la superficie e una linea verticale a destra della cartolina.
+                        Nessuna di queste impedisce la corretta lettura.
+                    </note>
+                </notesStmt>
+
+                <sourceDesc>
+                    <bibl type="postcard">
+                        <title type="custom" resp="#ES">[Donna con cane]</title>
+                        <author><persName ref="#GC">Giovanni Coliola</persName></author>
+                        <date>1917/11/01</date>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <idno type="postcard_id">7694_219_001/002</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang mainLang="ita">Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                                <height>9</height>
+                                                <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person>
+                            <persName ref="#GC">
+                                <forename>Giovanni</forename>
+                                <surname>Coliola</surname>
+                            </persName>
+                            <sex>Male</sex>
+                        </person>
+                        <person>
+                            <persName ref="#OT">
+                                <forename>Olivia</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>Female</sex>
+                        </person>
+                    </listPerson>
+                </sourceDesc>
+
+            </fileDesc>
+
+            <encodingDesc>
+                <p>Codifica digitale di entrambi i lati della cartolina</p>
+            </encodingDesc>
+
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC">
+                        <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <placeName ref="#MO">Modena</placeName>
+                        <date type="writing" when="19171101">01/11/1917</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT">
+                            <forename>Olivia</forename> 
+                            <surname>Turtura</surname>
+                        </persName>
+                    </correspAction>
+                </correspDesc>
+                
+                <textClass>
+                    <keywords>
+                        <term>Cartolina </term>
+                        <term>Cartolina Artistica </term>
+                        <term>Coppia di innamorati</term>
+                    </keywords>
+                </textClass>
+                
+                <langUsage>
+                    <language ident="it-IT" usage="98">Italiano del Novecento</language>
+                </langUsage>
+            </profileDesc>
+
+        </teiHeader>
+
+        <facsimile>
+            <surface xml:id="front_img219">
+                <graphic url='immagini_cartoline/Fronte 219.jpg' width='535px' height='833px' />
+                <!-- immagine sul fronte della cartolina -->
+                <zone ulx="5" uly="36" lrx="528" lry="551" xml:id="fimg_219" />
+                <!-- Ti assicuro che farò ogni pos- -->
+                <zone type="handWriting" ulx="28" uly="506" lrx="530" lry="596" xml:id="f1_219" />
+                <!-- sibile sforzo pur di adempiere -->
+                <zone type="handWriting" ulx="11" uly="584" lrx="531" lry="662" xml:id="f2_219" />
+                <!-- alla promessa fattati. -->
+                <zone type="handWriting" ulx="12" uly="644" lrx="372" lry="699" xml:id="f3_219" />
+                <!-- Amami, amami molto. -->
+                <zone type="handWriting" ulx="19" uly="700" lrx="534" lry="765" xml:id="f4_219" />
+                <!-- Io ti voglio mia. Giovanni -->
+                <zone type="handWriting" ulx="5" uly="749" lrx="532" lry="826" xml:id="f5_219" />
+            </surface>
+            <surface xml:id="back_img219">
+                <graphic url='immagini_cartoline/Retro 219.jpg' width='534px' height='831px' />
+                <!-- Modena, li 1/11-17. -->
+                <zone type="handWriting" ulx="189" uly="5" lrx="465" lry="46" xml:id="bdate_219" />
+                <!-- 177 -->
+                <zone type="handWriting" ulx="447" uly="17" lrx="525" lry="61" xml:id="bnum_219" />
+                <!-- Olivia mia, -->
+                <zone type="handWriting" ulx="27" uly="14" lrx="236" lry="58" xml:id="b1_219" />
+                <!-- Soffro molto per non averti vicino, -->
+                <zone type="handWriting" ulx="8" uly="56" lrx="516" lry="105" xml:id="b2_219" />
+                <!-- non sentire la voce affettuosa del tuo cuore -->
+                <zone type="handWriting" ulx="10" uly="102" lrx="532" lry="139" xml:id="b3_219" />
+                <!-- dirmi tante cose belle. Io sono stanco -->
+                <zone type="handWriting" ulx="11" uly="134" lrx="532" lry="177" xml:id="b4_219" />
+                <!-- di vivere questa avida atmosfera, senza -->
+                <zone type="handWriting" ulx="12" uly="174" lrx="531" lry="222" xml:id="b5_219" />
+                <!-- il conforto diretto di una persona cara e -->
+                <zone type="handWriting" ulx="9" uly="210" lrx="515" lry="261" xml:id="b6_219" />
+                <!-- e quando il mio pensiero prende a consi- -->
+                <zone type="handWriting" ulx="6" uly="253" lrx="523" lry="309" xml:id="b7_219" />
+                <!-- derare la gravità del momento, il _ -->
+                <zone type="handWriting" ulx="10" uly="296" lrx="522" lry="358" xml:id="b8_219" />
+                <!-- _ avvenire, sento mancarmi ogni speran- -->
+                <zone type="handWriting" ulx="12" uly="329" lrx="533" lry="395" xml:id="b9_219" />
+                <!-- za. Olivia, Olivia mia, mi dispiace _ -->
+                <zone type="handWriting" ulx="5" uly="379" lrx="533" lry="432" xml:id="b10_219" />
+                <!-- della falsa interpretazione che hai data  -->
+                <zone type="handWriting" ulx="8" uly="427" lrx="525" lry="478" xml:id="b11_219" />
+                <!-- alla mia lettera, perchè dici che non -->
+                <zone type="handWriting" ulx="12" uly="469" lrx="502" lry="502" xml:id="b12_219" />
+                <!-- t'amo? quando ogni mio pensiero -->
+                <zone type="handWriting" ulx="5" uly="511" lrx="521" lry="564" xml:id="b13_219" />
+                <!-- è tuo, ogni mio affetto è tuo, tutto -->
+                <zone type="handWriting" ulx="7" uly="559" lrx="500" lry="604" xml:id="b14_219" />
+                <!-- l'amor mio purissimo, ardente d'_- -->
+                <zone type="handWriting" ulx="7" uly="606" lrx="531" lry="670" xml:id="b15_219" />
+                <!-- _? Vuoi proprio che rinneghi -->
+                <zone type="handWriting" ulx="7" uly="657" lrx="532" lry="715" xml:id="b16_219" />
+                <!-- tutto? Vuoi che rimanendo  (solo per -->
+                <zone type="handWriting" ulx="17" uly="706" lrx="519" lry="760" xml:id="b17_219" />
+                <!-- te) inattivo soffriresti ogni altro senti- -->
+                <zone type="handWriting" ulx="13" uly="750" lrx="533" lry="798" xml:id="b18_219" />
+                <!-- mento che non sia tu? -->
+                <zone type="handWriting" ulx="15" uly="798" lrx="410" lry="831" xml:id="b19_219" />
+                <!-- Produzione _ -->
+                <zone type="handWriting" ulx="79" uly="53" lrx="155" lry="137" xml:id="bstamp1_219" />
+                <!-- Proprietà artistica riservata - Uff.Rev. Stampa N 2067 - Milano -->
+                <zone type="handWriting" ulx="89" uly="788" lrx="490" lry="809" xml:id="bstamp2_219" />
+            </surface>
+        </facsimile>
+
+
+        <!--TESTO SECONDA CARTOLINA-->
+
+        <text xml:lang="it" type="cartolina">
+            <body>
+                <div type="fronte" xml:id="front_postcard219" facs="#front_img219">
+                    <figure xml:id="fimg_219t" facs="#fimg_219">
+                        <graphic url="immagini_cartoline/Fronte 219.jpg" />
+                        <figDesc>
+                            Primo di una donna che tiene in braccio un cane di media taglia. 
+                            Il loro sguardo è rivolto alla loro sinistra, al di fuori dell'inquadratura. 
+                            Entrambe le figure sono inserite in una circonferenza, lo sfondo è sui toni del lilla.
+                            Al di sotto dell'immagine è presente dello spazio nel quale sono stati scritti i saluti da parte del mittente.
+                        </figDesc>
+                        <head>Donna con cane</head>
+                    </figure>
+                    <div type="message">
+                        <p xml:id="testo2_f1">
+                            <s>
+                                <lb xml:id="f1_219t" facs="#f1_219" />
+                                Ti assicuro che farò ogni pos<pc force="inter">-</pc>
+                                <lb xml:id="f2_219t" facs="#f2_219" />
+                                sibile sforzo pur di adempiere 
+                                <lb xml:id="f3_219t" facs="#f3_219" />
+                                alla promessa fattati.
+                            </s>
+                        </p>
+                        <p xml:id="testo2_f2">
+                            <s>
+                                <lb xml:id="f4_219t" facs="#f4_219" />
+                                Amami, amami molto.
+                            </s>
+                            <s>
+                                <lb xml:id="f5_219t" facs="#f5_219" />
+                                Io ti voglio mia. 
+                            </s>
+                        </p>   
+
+                        <closer>
+                            <signed><unclear reason="illegible">Giovanni</unclear></signed>
+                        </closer>
+                    </div>
+                </div>
+
+                <div type="retro" xml:id="back_postcard219"  facs="#back_img219">
+                    <div type="message">
+
+                        <dateline xml:id="testo2_date">
+                            <lb xml:id="bdate_219t" facs="#bdate_219" />
+                            <placeName ref="#Mo">Modena<unclear reason="illegible">, li</unclear></placeName>
+                            <date when="19171101">1/11-17.</date>
+                        </dateline>
+
+                        <p xml:id="testo2_num"><num type="cardinal" xml:id="bnum_219t" facs="#bnum_219" >177</num></p>
+
+                        <p xml:id="testo2_1">
+                            <s>
+                                <lb xml:id="b1_219t" facs="#b1_219" />
+                                <persName ref="#OT">Olivia</persName> mia,
+                                <lb xml:id="b2_219t" facs="#b2_219" />
+                                Soffro molto per non averti vicino,
+                                <lb xml:id="b3_219t" facs="#b3_219" />
+                                non sentire la voce affettuosa del tuo cuore
+                                <lb xml:id="b4_219t" facs="#b4_219" />
+                                dirmi tante cose belle.
+                            </s>
+                        </p>
+                        <p xml:id="testo2_2">
+                            <s>
+                                Io sono stanco
+                                <lb xml:id="b5_219t" facs="#b5_219" />
+                                di vivere questa avida atmosfera, senza
+                                <lb xml:id="b6_219t" facs="#b6_219" />
+                                il conforto diretto di una persona cara e
+                                <lb xml:id="b7_219t" facs="#b7_219" />
+                                e quando il mio pensiero prende a consi<pc force="inter">-</pc>
+                                <lb xml:id="b8_219t" facs="#b8_219" />
+                                derare la gravità del momento, il <gap atLeast="4" atMost="6" unit="chars" reason="illegible"/>
+                                <lb xml:id="b9_219t" facs="#b9_219" />
+                                <gap atLeast="4" atMost="6" unit="chars" reason="illegible"/> <unclear reason="illegible">avvenire</unclear>, sento mancarmi ogni speran<pc force="inter">-</pc>
+                                <lb xml:id="b10_219t" facs="#b10_219" />
+                                za.
+                            </s>
+                        </p>
+                        <p xml:id="testo2_3">
+                            <s>
+                                <persName ref="#OT">Olivia</persName>, Olivia mia, mi dispiace <gap atLeast="4" atMost="8" unit="chars" reason="illegible"/>
+                                <lb xml:id="b11_219t" facs="#b11_219" />
+                                della falsa interpretazione che hai data 
+                                <lb xml:id="b12_219t" facs="#b12_219" />
+                                alla mia lettera, perchè dici che non
+                                <lb xml:id="b13_219t" facs="#b13_219" />
+                                t'amo?
+                            </s>
+                            <s>
+                                quando ogni mio pensiero
+                                <lb xml:id="b14_219t" facs="#b14_219" />
+                                è tuo, ogni mio affetto è tuo, tutto
+                                <lb xml:id="b15_219t" facs="#b15_219" />
+                                l'amor mio purissimo, ardente d'<gap atLeast="1" atMost="2" unit="chars" reason="illegible"/><pc force="inter">-</pc>
+                                <lb xml:id="b16_219t" facs="#b16_219" />
+                                <gap atLeast="6" atMost="10" unit="chars" reason="illegible"/>?
+                            </s>
+                            <s>
+                                Vuoi proprio che rinneghi
+                                <lb xml:id="b17_219t" facs="#b17_219" />
+                                tutto?
+                            </s>
+                            <s>
+                                Vuoi che rimanendo  <pc force="weak">(</pc>solo per
+                                <lb xml:id="b18_219t" facs="#b18_219" />
+                                te<pc force="weak">)</pc> inattivo soffriresti ogni altro senti<pc force="inter">-</pc>
+                                <lb xml:id="b19_219t" facs="#b19_219" />
+                                mento che non sia tu?
+                            </s>
+                        </p> 
+                        
+                    </div>
+
+                    <div type="stampe" xml:id="bstamp219">
+
+                        <p xml:id="bstamp2_219t" facs="#bstamp2_219" >
+                            Proprietà artistica riservata - Uff.Rev. Stampa N 2067 - Milano
+                        </p>
+
+                        <p xml:id="bstamp1_219t" facs="#bstamp1_219">
+                            <unclear reason="illegible">Produzione</unclear> <gap atLeast="7" atMost="11" unit="chars" reason="illegible"/>
+                        </p>
+                    </div>
+                </div>
+            </body>
+        </text>
+
+    </TEI>
+
+</teiCorpus>

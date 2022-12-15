@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Noto;
+    src: url(font/NotoSerifDisplay-Regular.ttf);
+    font-weight: normal;
+    font-style: normal	}
+  
+@font-face {
+    font-family: Noto;
+    src: url(font/NotoSerifDisplay-Italic.ttf);
+    font-weight: normal;
+    font-style: italic }
+  
+@font-face {
+    font-family: Noto;
+    src: url(font/NotoSerifDisplay-Bold.ttf);
+    font-weight: bold;
+    font-style: normal	}
+
+@font-face {
+    font-family: NotoTamil;
+    src: url(font/NotoSerifTamil-Bold.ttf);
+    font-weight: bold;
+    font-style: normal	}
+
+@font-face {
+    font-family: NotoTamil;
+    src: url(font/NotoSerifTamil-Regular.ttf);
+    font-weight: normal;
+    font-style: normal	}
+
+@font-face {
+    font-family: WindSong;
+    src: url(font/WindSong-Regular.ttf);
+    font-weight: normal;
+    font-style: normal	}
+
+html, body{
+    height:100%;
+    margin: 0%;
+}
+
+body {
+    font-family: Noto, 'Bookman Old Style', serif;
+}
+
+header {
+    font-family: WindSong, 'Bookman Old Style', serif;
+    font-size: 2.5em;
+    background-image: url('immagini_sito/sfondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+	height: 45%;
+    
+}
+
+section{
+	width:100%;
+	height:auto;
+	padding: 60px 0;
+	text-align: center;
+}
+
+img {
+    height: 28em;
+    width: auto;
+}
+
+h1 {
+    text-align: center;
+	margin-top: 0px;
+    padding-top: 5%;
+}
+
+h2, h3 {
+    font-family: NotoTamil, 'Bookman Old Style', serif;
+}
+
+h3 {
+    border-bottom: 0.1em solid #71624f;
+}
+
+.footer {
+    background-color: #71624f;
+}
+
+
+
+#s1, #s2, #s3 {
+    background-image: url('immagini_sito/carta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#s1, #s3 {
+    box-shadow: inset 0 18px 14px -14px rgba(0,0,0,0.6), inset 0 -18px 14px -14px rgba(0,0,0,0.6);
+    z-index: 20;
+}
+
+#intro {
+    margin: 2% 25%;
+}
+
+.organizer {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.show_cartoline {
+    margin: 5% 10%;
+    height: min-content;
+}
+
+.show_text {
+    padding: 0 10%;
+    width: 40%;
+    float: right;
+    height: auto;
+    margin-top: auto;
+    margin-bottom:auto;
+    font-size: 0.9em;
+}
+
+.pmessaggio {
+    margin: 0;
+}
+
+
+.container {
+    font-family: NotoTamil, 'Bookman Old Style', serif;
+    cursor: pointer;
+    font-size: 1.2em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }

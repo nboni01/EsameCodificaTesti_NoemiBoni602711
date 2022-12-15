@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?> 
+
+<!-- HEADER DELLA CARTOLINA -->
+<TEI xml:id="cart219" xmlns="http://www.teic.org/ns/1.0">
+    <teiHeader xml:lang="it">
+    
+        <!-- Descrizione del file -->
+        <fileDesc>
+
+            <titleStmt>
+                <title>Donna con cane - Edizione digitale diplomatico-interpretativa</title>
+                <respStmt>
+                    <resp>Trascrizione a cura di</resp>
+                    <name type="person" xml:id="NB">Noemi Boni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, Università di Pisa
+                    <date when="2018">2018</date>
+                </edition>
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <persName ref="#TC">Tommaso Castagneto</persName>
+                    <persName ref="#NB">Noemi Boni</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <persName xml:id="GP">Giacomo Paolicchi</persName>
+                    <persName xml:id="ES">Enrica Salvatori</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <persName xml:id="ER">E. Ratti</persName>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+
+            <!-- Note sulla cartolina -->
+            <notesStmt>
+                <note>
+                    Sono presenti diverse piccole sbavature su tutta la superficie e una linea verticale a destra della cartolina.
+                    Nessuna di queste impedisce la corretta lettura.
+                </note>
+            </notesStmt>
+
+            <sourceDesc>
+                <bibl type="postcard">
+                    <title type="custom" resp="#ES">[Donna con cane]</title>
+                    <author><persName xml:id="GC">Giovanni Coliola</persName></author>
+                    <date>1917/11/01</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno type="postcard_id">7694_219_001/002</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang xml:id="lang_ITA" mainLang="ita">Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                    </dimensions>
+                                </support>
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+
+                <listPerson>
+                    <person>
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>Male</sex>
+                    </person>
+                    <person>
+                        <persName xml:id="OT">
+                            <forename>Olivia</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>Female</sex>
+                    </person>
+                </listPerson>
+
+                <listPlace>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+            <p>Codifica digitale di entrambi i lati della cartolina</p>
+        </encodingDesc>
+
+        <!-- Informazioni sul testo-->
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">
+                       <forename>Giovanni</forename>
+                        <surname>Coliola</surname>
+                    </persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <date type="writing" when="19171101">01/11/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">
+                        <forename>Olivia</forename> 
+                        <surname>Turtura</surname>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Coppia di innamorati</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <!-- FRONTE -->
+        <surface xml:id="front_img219">
+            <graphic url='immagini_cartoline/Fronte 219.jpg' width='535px' height='833px' />
+            <!-- immagine sul fronte della cartolina -->
+            <zone ulx="5" uly="36" lrx="528" lry="551" xml:id="fimg_219" />
+            <!-- Ti assicuro che farò ogni pos- -->
+            <zone type="handWriting" ulx="28" uly="506" lrx="530" lry="596" xml:id="f1_219" />
+            <!-- sibile sforzo pur di adempiere -->
+            <zone type="handWriting" ulx="11" uly="584" lrx="531" lry="662" xml:id="f2_219" />
+            <!-- alla promessa fattati. -->
+            <zone type="handWriting" ulx="12" uly="644" lrx="372" lry="699" xml:id="f3_219" />
+            <!-- Amami, amami molto. -->
+            <zone type="handWriting" ulx="19" uly="700" lrx="534" lry="765" xml:id="f4_219" />
+            <!-- Io ti voglio mia. Giovanni -->
+            <zone type="handWriting" ulx="5" uly="749" lrx="532" lry="826" xml:id="f5_219" />
+        </surface>
+        <!-- RETRO -->
+        <surface xml:id="back_img219">
+            <graphic url='immagini_cartoline/Retro 219.jpg' width='534px' height='831px' />
+            <!-- Modena, li 1/11-17. -->
+            <zone type="handWriting" ulx="189" uly="5" lrx="465" lry="46" xml:id="bdate_219" />
+            <!-- 177 -->
+            <zone type="handWriting" ulx="447" uly="17" lrx="525" lry="61" xml:id="bnum_219" />
+            <!-- Olivia mia, -->
+            <zone type="handWriting" ulx="27" uly="14" lrx="236" lry="58" xml:id="b1_219" />
+            <!-- Soffro molto per non averti vicino, -->
+            <zone type="handWriting" ulx="8" uly="56" lrx="516" lry="105" xml:id="b2_219" />
+            <!-- non sentire la voce affettuosa del tuo cuore -->
+            <zone type="handWriting" ulx="10" uly="102" lrx="532" lry="139" xml:id="b3_219" />
+            <!-- dirmi tante cose belle. Io sono stanco -->
+            <zone type="handWriting" ulx="11" uly="134" lrx="532" lry="177" xml:id="b4_219" />
+            <!-- di vivere questa avida atmosfera, senza -->
+            <zone type="handWriting" ulx="12" uly="174" lrx="531" lry="222" xml:id="b5_219" />
+            <!-- il conforto diretto di una persona cara e -->
+            <zone type="handWriting" ulx="9" uly="210" lrx="515" lry="261" xml:id="b6_219" />
+            <!-- e quando il mio pensiero prende a consi- -->
+            <zone type="handWriting" ulx="6" uly="253" lrx="523" lry="309" xml:id="b7_219" />
+            <!-- derare la gravità del momento, il _ -->
+            <zone type="handWriting" ulx="10" uly="296" lrx="522" lry="358" xml:id="b8_219" />
+            <!-- _ avvenire, sento mancarmi ogni speran- -->
+            <zone type="handWriting" ulx="12" uly="329" lrx="533" lry="395" xml:id="b9_219" />
+            <!-- za. Olivia, Olivia mia, mi dispiace _ -->
+            <zone type="handWriting" ulx="5" uly="379" lrx="533" lry="432" xml:id="b10_219" />
+            <!-- della falsa interpretazione che hai data  -->
+            <zone type="handWriting" ulx="8" uly="427" lrx="525" lry="478" xml:id="b11_219" />
+            <!-- alla mia lettera, perchè dici che non -->
+            <zone type="handWriting" ulx="12" uly="469" lrx="502" lry="502" xml:id="b12_219" />
+            <!-- t'amo? quando ogni mio pensiero -->
+            <zone type="handWriting" ulx="5" uly="511" lrx="521" lry="564" xml:id="b13_219" />
+            <!-- è tuo, ogni mio affetto è tuo, tutto -->
+            <zone type="handWriting" ulx="7" uly="559" lrx="500" lry="604" xml:id="b14_219" />
+            <!-- l'amor mio purissimo, ardente d'_- -->
+            <zone type="handWriting" ulx="7" uly="606" lrx="531" lry="670" xml:id="b15_219" />
+            <!-- _? Vuoi proprio che rinneghi -->
+            <zone type="handWriting" ulx="7" uly="657" lrx="532" lry="715" xml:id="b16_219" />
+            <!-- tutto? Vuoi che rimanendo  (solo per -->
+            <zone type="handWriting" ulx="17" uly="706" lrx="519" lry="760" xml:id="b17_219" />
+            <!-- te) inattivo soffriresti ogni altro senti- -->
+            <zone type="handWriting" ulx="13" uly="750" lrx="533" lry="798" xml:id="b18_219" />
+            <!-- mento che non sia tu? -->
+            <zone type="handWriting" ulx="15" uly="798" lrx="410" lry="831" xml:id="b19_219" />
+             <!-- Produzione _ -->
+            <zone type="handWriting" ulx="79" uly="53" lrx="155" lry="137" xml:id="bstamp1_219" />
+            <!-- Proprietà artistica riservata - Uff.Rev. Stampa N 2067 - Milano -->
+            <zone type="handWriting" ulx="89" uly="788" lrx="490" lry="809" xml:id="bstamp2_219" />
+        </surface>
+    </facsimile>
+
+    <text xml:lang="it" type="cartolina">
+        <body>
+            <div type="fronte" xml:id="front_postcard219" facs="#front_img219">
+            
+                <!-- Descrizione dell'immagine -->
+                <figure xml:id="fimg_219t" facs="#fimg_219">
+                    <graphic url="immagini_cartoline/Fronte 219.jpg" />
+                    <figDesc>
+                        Primo di una donna che tiene in braccio un cane di media taglia. 
+                        Il loro sguardo è rivolto alla loro sinistra, al di fuori dell'inquadratura. 
+                        Entrambe le figure sono inserite in una circonferenza, lo sfondo è sui toni del lilla.
+                        Al di sotto dell'immagine è presente dello spazio nel quale sono stati scritti i saluti da parte del mittente.
+                    </figDesc>
+                    <head>Donna con cane</head>
+                </figure>
+                
+                <!-- Testo sul fronte -->
+                <div type="message">
+                    <p>
+                        <s>
+                            <lb xml:id="f1_219t" facs="#f1_219" />
+                            Ti assicuro che farò ogni pos<pc force="inter">-</pc>
+                            <lb xml:id="f2_219t" facs="#f2_219" />
+                            sibile sforzo pur di adempiere 
+                            <lb xml:id="f3_219t" facs="#f3_219" />
+                            alla promessa fattati.
+                        </s>
+                        <s>
+                            <lb xml:id="f4_219t" facs="#f4_219" />
+                            Amami, amami molto.
+                        </s>
+                        <s>
+                            <lb xml:id="f5_219t" facs="#f5_219" />
+                            Io ti voglio mia. 
+                        </s>
+                    </p>   
+
+                    <closer>
+                        <signed><unclear reason="illegible">Giovanni</unclear></signed>
+                    </closer>
+                </div>
+            </div>
+            
+            <!-- Testo sul retro -->
+            <div type="retro" xml:id="back_postcard219"  facs="#back_img219">
+                <div type="message">
+
+                    <dateline>
+                        <lb xml:id="bdate_219t" facs="#bdate_219" />
+                        <placeName ref="#Mo">Modena<unclear reason="illegible">, li</unclear></placeName>
+                        <date when="19171101">1/11-17.</date>
+                    </dateline>
+
+                    <p><num type="cardinal" xml:id="bnum_219t" facs="#bnum_219" >177</num></p>
+
+                    <p>
+                        <s>
+                            <lb xml:id="b1_219t" facs="#b1_219" />
+                            <persName ref="#OT">Olivia</persName> mia,
+                            <lb xml:id="b2_219t" facs="#b2_219" />
+                            Soffro molto per non averti vicino,
+                            <lb xml:id="b3_219t" facs="#b3_219" />
+                            non sentire la voce affettuosa del tuo cuore
+                            <lb xml:id="b4_219t" facs="#b4_219" />
+                            dirmi tante cose belle.
+                        </s>
+                        <s>
+                            Io sono stanco
+                            <lb xml:id="b5_219t" facs="#b5_219" />
+                            di vivere questa avida atmosfera, senza
+                            <lb xml:id="b6_219t" facs="#b6_219" />
+                            il conforto diretto di una persona cara e
+                            <lb xml:id="b7_219t" facs="#b7_219" />
+                            e quando il mio pensiero prende a consi<pc force="inter">-</pc>
+                            <lb xml:id="b8_219t" facs="#b8_219" />
+                            derare la gravità del momento, il <gap atLeast="4" atMost="6" unit="chars" reason="illegible"/>
+                            <lb xml:id="b9_219t" facs="#b9_219" />
+                            <gap atLeast="4" atMost="6" unit="chars" reason="illegible"/> <unclear reason="illegible">avvenire</unclear>, sento mancarmi ogni speran<pc force="inter">-</pc>
+                            <lb xml:id="b10_219t" facs="#b10_219" />
+                            za.
+                        </s>
+                        <s>
+                            <persName ref="#OT">Olivia</persName>, Olivia mia, mi dispiace <gap atLeast="4" atMost="8" unit="chars" reason="illegible"/>
+                            <lb xml:id="b11_219t" facs="#b11_219" />
+                            della falsa interpretazione che hai data 
+                            <lb xml:id="b12_219t" facs="#b12_219" />
+                            alla mia lettera, perchè dici che non
+                            <lb xml:id="b13_219t" facs="#b13_219" />
+                            t'amo?
+                        </s>
+                        <s>
+                            quando ogni mio pensiero
+                            <lb xml:id="b14_219t" facs="#b14_219" />
+                            è tuo, ogni mio affetto è tuo, tutto
+                            <lb xml:id="b15_219t" facs="#b15_219" />
+                            l'amor mio purissimo, ardente d'<gap atLeast="1" atMost="2" unit="chars" reason="illegible"/><pc force="inter">-</pc>
+                            <lb xml:id="b16_219t" facs="#b16_219" />
+                            <gap atLeast="6" atMost="10" unit="chars" reason="illegible"/>?
+                        </s>
+                        <s>
+                            Vuoi proprio che rinneghi
+                            <lb xml:id="b17_219t" facs="#b17_219" />
+                            tutto?
+                        </s>
+                        <s>
+                            Vuoi che rimanendo  <pc force="weak">(</pc>solo per
+                            <lb xml:id="b18_219t" facs="#b18_219" />
+                            te<pc force="weak">)</pc> inattivo soffriresti ogni altro senti<pc force="inter">-</pc>
+                            <lb xml:id="b19_219t" facs="#b19_219" />
+                            mento che non sia tu?
+                        </s>
+                    </p> 
+                    
+                </div>
+
+                <!-- Altre annotazioni sul retro -->
+                <div type="stampe" xml:id="bstamp219">
+
+                    <p xml:id="bstamp2_219t" facs="#bstamp2_219" >
+                        Proprietà artistica riservata - Uff.Rev. Stampa N 2067 - Milano
+                    </p>
+
+                    <p xml:id="bstamp1_219t" facs="#bstamp1_219">
+                        <unclear reason="illegible">Produzione</unclear> <gap atLeast="7" atMost="11" unit="chars" reason="illegible"/>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+
+</TEI>
